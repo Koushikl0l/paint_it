@@ -8,7 +8,7 @@ from PIL import Image
 
 dir="D:/repos/drawable_canvas/"
 data="D:/repos/drawable_canvas/alphabets/"
-model = tf.keras.models.load_model(dir+'model_handwitten_alphabet.h5')
+model = tf.keras.models.load_model('model_handwitten_alphabet.h5')
 def rgb2gray(rgb):
 
     r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
