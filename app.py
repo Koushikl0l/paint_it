@@ -6,8 +6,8 @@ from keras.preprocessing.image import img_to_array, load_img
 import cv2
 from PIL import Image
 
-dir="D:/repos/drawable_canvas/"
-data="D:/repos/drawable_canvas/alphabets/"
+#dir="D:/repos/drawable_canvas/"
+#data="D:/repos/drawable_canvas/alphabets/"
 model = tf.keras.models.load_model('model_handwitten_alphabet.h5')
 def rgb2gray(rgb):
 
